@@ -6,7 +6,7 @@
 
 <p>You can do amazing things with these little snippets of Javascript Code, nothing is impossible! To get started, head over to the <a href="https://github.com/officialcosmicstudios/Advanced-Bookmarklets/edit/main/README.md#documentation">Documentation</a></p>
 
-<p>Want to improve Tsunami? <a href="https://github.com/FogNetwork/Tsunami/compare">Create a pull request</a></p>
+<p>Want to improve Advanced Bookmarklets? <a href="https://github.com/FogNetwork/Tsunami/compare">Create a pull request</a></p>
 </div>
 
 ## Documentation
