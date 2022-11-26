@@ -38,7 +38,7 @@
 - Code obfuscation
 - GUI via JavaScript Appending
 
-## What is a bookmarklet
+### What is a bookmarklet
 
 - A bookmarklet is a peice of JavaScript code that runs when the bookmark is clicked, this can be used to manipulate web pages into responding/behaving differenty. Since it's just JavaScript code and a bookmark, it is theoretically impossible to block
 
@@ -50,47 +50,22 @@
 
 ### Desktop
 
-To get started with desktop, click the "star" icon(★) at the top right of the screen, it should be part of the URL Bar. After clicking the icon, you should see an option called "Name". Change this to the name of the bookmarklet. Below that, you should see a "Folder" option, put it in whatever folder you desire. Below both of those options is a button labled "More...". Click that button, a popup should appear. Click the "URL" section, and replace the URL with the code for the bookmarklet code. To replace the URL, there are two methods: Method one is to manually select the URL, then paste the code, method two is to use CTRL/CMD + A to select the URL, and then pasting the bookmarklet code.
+Creating a bookmarklet on desktop is fairly simple, depending on your operating system and web browser, the process may be slightly different, but this manual should cover the subject regarding all operating systems and web brosers
 
-### Deploy
+1. Click the "star" icon(☆) at the top right of the screen, it should be part of the URL Bar.
+2. After clicking the icon, you should see an option called "Name". Change this to the name of the bookmarklet. 
+3. Below that, you should see a "Folder" option, put it in whatever folder you desire. 
+4. Below both of those options is a button labled "More...". Click that button, a popup should appear. 
+5. Click the "URL" section, and replace the URL with the code for the bookmarklet code. 
+   - To replace the URL, there are two methods: Method one is to manually select the URL, then paste the code, method two is to use CTRL/CMD + A to select the URL, and then pasting the bookmarklet code.
 
-Click one of the buttons above and follow the steps
+### Mobile
 
-### Proxies
+Using a bookmarklet on mobile isn't as straightforward as desktop. The process is slightly different depending on whether you're using an iPhone or an Android phone.
 
-All proxies hosted locally, so you don't need any subdomains
-
-[Ultraviolet (/ultraviolet/)](https://github.com/titaniumnetwork-dev/Ultraviolet)
-
-[Stomp (/stomp/)](https://github.com/sysce/stomp)
-
-[Corrosion (/corrosion/)](https://github.com/titaniumnetwork-dev/Corrosion)
-
-[Rhodium (/rhodium/)](https://github.com/LudicrousDevelopment/Rhodium)
-
-### Configuration
-
-**config.json**
-
-```json
-{
-    "port": "8080",
-    "auth": "false",
-    "username": "user",
-    "password": "secret",
-    "chromebook": "false"
-}
-```
-
-`"port": "8080"` Changes the port 
-
-`"auth": "false"` Basic authentication, set to true or false
-
-`"username"` Username for authentication
-
-`"password"` Password for authentication
-
-`"chromebook"` Chromebook only mode, set to true or false
+On iPhone: tap the share icon in the top-right corner of the address bar, then scroll down and tap Bookmark.
+On Android, tap the three-dots menu button and then tap the Star icon.
+Chrome will automatically bookmark the page for you.
 
 ## Support
 
