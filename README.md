@@ -63,21 +63,39 @@ Creating a bookmarklet on desktop is fairly simple, depending on your operating 
 
 Using a bookmarklet on mobile isn't as straightforward as desktop. The process is slightly different depending on whether you're using an iPhone or an Android phone.
 
-On iPhone: tap the share icon in the top-right corner of the address bar, then scroll down and tap Bookmark.
-On Android, tap the three-dots menu button and then tap the Star icon.
-Chrome will automatically bookmark the page for you.
+On iPhone: 
+1. Tap the three-dots menu at the bottom of the screen
+2. Scroll down through the dropdown menu until you see a "Bookmark" option
+3. Click the bookmark option, the page should be bookmarked now
+4. Click the three-dot menu again, and go to the "Bookmarks" section
+5. Click the "Edit" button at the bottom of the screen, edit the bookmarks name to be the name of the Bookmarklet, and change the URL to the bookmarklet code
+
+On Android:
+1. Tap the three-dots menu at the top right, and then tap the Star icon.
+2. Chrome will automatically bookmark the page for you.
+3. Tap the three-dots menu once again, and go to the bookmarks section.
+4. Find the bookmark you just made, and tap the three dots to the right of the bookmark
+5. Select "Edit"
+6. Change the name of the bookmark to the name of the bookmarklet.
+7. Replace the URL with the bookmarklet code
+
+### To use
+
+After setting up, simply click on the bookmark
 
 ## Support
 
 ### FAQ
 
-**How can I get new domains?**
+**How do you use the bookmarklets?**
 
-Join our [discord](https://discord.gg/yk33HZSZkU) for more Tsunami links
+See [Setup](#setup)
 
-**Captcha not working/issues**
+**Bookmarklet is not working, how do I fix it**
 
-Captcha is only supported on Ultraviolet
+- Make sure you have properly pasted the code and didn't forget some code
+- Some bookmarklets are not supported for all websites, keep that in mind
+- Make sure your web browser supports this feature, if you're using an old web browser, such as internet explorer, this may not work
 
 **Why is Discord not working properly?**
 
