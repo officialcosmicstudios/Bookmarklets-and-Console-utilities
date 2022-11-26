@@ -103,7 +103,7 @@ Try using the QR code. Refreshing the page might help
 
 ### Contact
 
-Nebelung - [Nebelung#1335](https://discord.com/users/887118260963782686)
+kawaleo - [kawaleo#2936](https://discord.com/users/916077454710407229)
 
 ## More
 
