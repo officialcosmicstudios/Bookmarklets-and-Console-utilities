@@ -1,31 +1,23 @@
+<div align="center">
+
 <h1>Advanced Bookmarklets</h1>
 
 <h3>A set of bookmarklets you can use for various purposes regarding school</h3>
 
-<p>You can do amazing things with these little snippets of Javascript Code, nothing is impossible! To get started, head over to the <a href="#documentation">Documentation</a></p>
+<p>You can do amazing things with these little snippets of Javascript Code, nothing is impossible! To get started, head over to the <a href="https://github.com/officialcosmicstudios/Advanced-Bookmarklets/edit/main/README.md#documentation">Documentation</a></p>
 
 <p>Want to improve Tsunami? <a href="https://github.com/FogNetwork/Tsunami/compare">Create a pull request</a></p>
 </div>
 
-<p align="center">
-<a href="https://heroku.com/deploy?template=https://github.com/FogNetwork/Tsunami"><img height="30px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/deploy/heroku2.svg"><img></a>
-<a href="https://repl.it/github/FogNetwork/Tsunami"><img height="30px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/deploy/replit2.svg"><img></a>
-<a href="https://glitch.com/edit/#!/import/github/FogNetwork/Tsunami"><img height="30px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/deploy/glitch2.svg"><img></a>
-<a href="https://railway.app/new/template?template=https://github.com/FogNetwork/Tsunami"><img height="30px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/deploy/railway2.svg"><img></a>
-<a href="https://app.koyeb.com/deploy?type=git&repository=github.com/FogNetwork/Tsunami&branch=main&name=Tsunami"><img height="30px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/deploy/koyeb2.svg"><img></a>
-</p>
-
-## Documentation(#documentation)
+## Documentation
 
 - [Overview](#overview)
-  - [Supported Sites](#supported-sites)
+  - [Contents](#contents)
   - [Features](#features)
-  - [Pages](#pages)
+  - [What is a bookmarklet](#what-is-a-bookmarklet)
 - [Setup](#setup)
-  - [Locally](#locally)
-  - [Deploy](#deploy)
-  - [Proxies](#proxies)
-  - [Configuration](#configuration)
+  - [Desktop](#desktop)
+  - [Mobile](#mobile)
 - [Support](#support)
   - [FAQ](#faq)
   - [Contact](#contact)
@@ -36,87 +28,29 @@
 
 ## Overview
 
-### Supported Sites
+### Contents
 
-- google.com
-- discord.com
-- youtube.com
-- invidio.us
-- reddit.com
-- wolframalpha.com
-- 1v1.lol
+- Inspect element + console
 
 ### Features
 
-- All the best proxies
-- Nice games library
-- Tab cloaking and lots of themes/settings
-- Basic auth
-- Customizable CSS
-- Installable PWA
-- More games
+- Advanced features such as libraries
+- Code obfuscation
+- GUI via JavaScript Appending
 
-## Pages
+## What is a bookmarklet
 
-- `/` Homepage
-- `/1` Apps
-- `/2` Arcade
-- `/3` Settings
-- `/4` Terms
-- `/5` Privacy
-- `/6` Credits
-- `/7` Support and Contact
-- `/404` 404
+- A bookmarklet is a peice of JavaScript code that runs when the bookmark is clicked, this can be used to manipulate web pages into responding/behaving differenty. Since it's just JavaScript code and a bookmark, it is theoretically impossible to block
 
 ## Changelog/Roadmap
 ### Version 1.0
 - [x] Initial files
 
-### Version 2.0
-- [x] New proxies
-- [x] Update css style (user-select:none and drop shadow)
-- [x] Chromebook only mode
-- [x] Changelog/roadmap
-- [x] Faster js loading/themes loading
-- [x] New themes
-- [x] Update readme
-- [x] Fix lightmode css
-- [x] Css vars
-- [x] PWA install button
-- [x] Better tab cloak (enter website url, advanced, proxy favicon)
-- [x] Better Go Page
-- [x] Remove mist and docs
-- [x] Background settings
-
-### Release v2.25
-- [ ] Remove keywords
-- [ ] Apps page (Replace Chatbox)
-- [ ] Inspect button (Avo)
-- [ ] Inspect button (Avo)
-
-### Version 2.5
-- [ ] Lite mode (just sw proxies no backend)
-
-### Version 3.0
-- [ ] Mobile support (finish)
-- [ ] Games
-
-### Version 4.0
-- [ ] Rewrite Code
-
 ## Setup
 
-### Locally
+### Desktop
 
-```sh
-git clone https://github.com/FogNetwork/Tsunami
-
-cd Tsunami
-
-npm install
-
-npm start
-```
+To get started with desktop, click the "star" icon(★) at the top right of the screen, it should be part of the URL Bar. After clicking the icon, you should see an option called "Name". Change this to the name of the bookmarklet. Below that, you should see a "Folder" option, put it in whatever folder you desire. Below both of those options is a button labled "More...". Click that button, a popup should appear. Click the "URL" section, and replace the URL with the code for the bookmarklet code. To replace the URL, there are two methods: Method one is to manually select the URL, then paste the code, method two is to use CTRL/CMD + A to select the URL, and then pasting the bookmarklet code.
 
 ### Deploy
 
