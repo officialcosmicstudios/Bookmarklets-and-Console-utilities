@@ -1,3 +1,6 @@
+const css = document.createElement('style');
+const cssfile = 
+
 function sin() {
   document.calcul.result.value = Math.sin(document.calcul.result.value);
 }
