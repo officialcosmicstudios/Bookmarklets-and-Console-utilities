@@ -1,6 +1,8 @@
-const css = document.createElement('style');
-const cssfile = 'https://raw.githubusercontent.com/officialcosmicstudios/Advanced-Bookmarklets/main/calculator/raw.css';
-cssfile.appendChild(css);
+const css = document.body.createElement('link')
+css.rel = 'stylesheet'
+css.href = 'https://raw.githubusercontent.com/officialcosmicstudios/Advanced-Bookmarklets/main/calculator/raw.css'
+css.type = 'text/css'
+document.head.innerHTML = `${css}`
 
 function sin() {
   document.calcul.result.value = Math.sin(document.calcul.result.value);
